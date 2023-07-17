@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(180deg, hotpink 0%, rgb(66, 100, 123) 100%);
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 3%;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 28px;
+    border-radius: 9px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+img, #jokeContent {
+    margin-top: 3%;
+}
